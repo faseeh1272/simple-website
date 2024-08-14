@@ -232,11 +232,8 @@ footer{
     margin-top: 20px;
     color: #fff;
 }
-@media screen(max-with:1520px;)(min-with:401px;) {
-    *{
-        margin: 0px;
-        padding: 0px;
-    }
+@media screen(max-wiDth:600px;)(min-wiDth:1520px;) {
+   
     body{
         background-color: rgb(29, 28, 28);
     }
