@@ -232,7 +232,7 @@ footer{
     margin-top: 20px;
     color: #fff;
 }
-@media screen(max-wiDth:600px;)(min-wiDth:1520px;) {
+@media screen(max-width:600px;)(min-width:1420px;) {
    
     body{
         background-color: rgb(29, 28, 28);
