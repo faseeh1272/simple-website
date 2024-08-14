@@ -230,6 +230,7 @@ footer{
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+    color: #fff;
 }
 @media screen(max-with:1520px;)(min-with:401px;) {
     *{
@@ -244,6 +245,7 @@ footer{
         height: 450px;
         background-color: gray;
         
+        
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
     }
@@ -251,6 +253,7 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     
         }
     .left img{
@@ -304,6 +307,7 @@ footer{
        display: flex;
        justify-content: space-between;
      margin-top: 100px;
+     flex-wrap: wrap;
     
     }
     .smit{
@@ -326,6 +330,7 @@ footer{
         width: 50%;
         display: flex;
         justify-content:space-between;
+        flex-wrap: wrap;
     }
     .white{
         color: #fff;
@@ -358,6 +363,7 @@ footer{
     .images{
         display: flex;
         margin-top: 20px;
+        flex-wrap: wrap;
     }
     .box{
         width: 25%;
@@ -381,6 +387,7 @@ footer{
         display: flex;
         justify-content: space-between;
         margin-top: 20px;
+        flex-wrap: wrap;
     }
     .item{
         width: 18%;
@@ -416,6 +423,7 @@ footer{
         display: flex;
         justify-content: space-between;
         margin-top: 20px;
+        flex-wrap: wrap;
     }
     .boxes{
         display: flex;
@@ -423,6 +431,7 @@ footer{
     width: 23%;
     border: 2px solid white;
     color: #fff;
+    flex-wrap: wrap;
     }
     .red{
         color: rgb(116, 13, 13);
@@ -437,6 +446,7 @@ footer{
         justify-content: space-between;
         margin-top: 25px;
         color: #fff;
+        flex-wrap: wrap;
     }
     .s{
         display: flex;
@@ -444,6 +454,7 @@ footer{
         background-color:gray;
         width: 100px;
         align-items: center;
+        flex-wrap: wrap;
     
     }
     .flexbox3{
@@ -451,6 +462,7 @@ footer{
         justify-content: space-between;
         margin-top: 20px;
         color: #fff;
+        flex-wrap: wrap;
     }
     .box3 img{
         width: 100px;
@@ -464,6 +476,8 @@ footer{
         display: flex;
         justify-content: space-between;
         margin-top: 20px;
+        flex-wrap: wrap;
+       
     }
     
 }
