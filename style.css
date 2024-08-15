@@ -17,6 +17,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
 display: flex;
 justify-content: space-between;
 align-items: center;
+flex-wrap: wrap;
 
     }
 .left img{
@@ -28,11 +29,13 @@ align-items: center;
     display: flex;
     margin-right: 30px;
     font-size: 35px;
+    flex-wrap: wrap;
     
 }
 ul {
     display: flex;
     gap: 25px;
+    flex-wrap: wrap;
 }
 li{
 list-style: none;
@@ -80,6 +83,7 @@ text-decoration: none;
     display: flex;
     gap: 10px;
     margin-right: 10px;
+    flex-wrap: wrap;
 }
 /* section-2 */
 .section-two{
@@ -92,6 +96,7 @@ text-decoration: none;
     width: 50%;
     display: flex;
     justify-content:space-between;
+    flex-wrap: wrap;
 }
 .white{
     color: #fff;
@@ -124,9 +129,12 @@ padding-right: 5px;
 .images{
     display: flex;
     margin-top: 20px;
+    flex-wrap: wrap;
 }
 .box{
+    display: flex;
     width: 25%;
+    flex-wrap: wrap;
    
 }
 .box img{
@@ -189,6 +197,7 @@ height: 180px;
 width: 23%;
 border: 2px solid white;
 color: #fff;
+flex-wrap: wrap;
 }
 .red{
     color: rgb(116, 13, 13);
@@ -232,249 +241,47 @@ footer{
     margin-top: 20px;
     color: #fff;
 }
-@media screen(max-width:600px;)(min-width:1420px;) {
-   
-    body{
-        background-color: rgb(29, 28, 28);
-    }
-    .header{
-        width: 100%;
-        height: 450px;
-        background-color: gray;
-        
-        
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-    }
-     .navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    
-        }
-    .left img{
-        width: 100px;
-        padding: 20px;
-        border-radius: 50%;
-    }
-    .right{
-        display: flex;
-        margin-right: 30px;
-        font-size: 35px;
-        
-    }
-    ul {
-        display: flex;
-        gap: 25px;
-    }
-    li{
-    list-style: none;
-    }
-     a{
-        color: aliceblue;
-    text-decoration: none;
-    }
-    .content{
-        text-align: center;
-        margin-top: 20px;
-    }
-    
-    .btn{
-        margin-top: 20px;
-    
-        color: white;
-        background: var(--gradient);
-        padding: 10px 3px 10px 10px;
-        border: none;
-        border-radius: 25px;
-        background-color: rgb(212, 77, 14);
-    
-    }
-    
-    .btn-icon{
-    
-        background-color: #fff;
-        padding: 5px;
-        color: black;
-        border-radius: 25px;
-        margin-left: 30px;
-    }
-    .bottom-address{
-       display: flex;
-       justify-content: space-between;
-     margin-top: 100px;
-     flex-wrap: wrap;
-    
-    }
-    .smit{
-        margin-left: 30px;
-        font-size: 20px;
-    }
-    .icons{
-        display: flex;
-        gap: 10px;
-        margin-right: 10px;
-    }
-    /* section-2 */
-    .section-two{
-        width: 100%;
-        height: 800px;
-        background-color: rgb(72, 70, 70);
-    }
-    
-    .content-2{
-        width: 50%;
-        display: flex;
-        justify-content:space-between;
-        flex-wrap: wrap;
-    }
-    .white{
-        color: #fff;
-    }
-    .line{
-        margin-right: 90%;
-        background-color: red;
-       
-    }
-    .first{
-        max-width: 80%;
-        margin: 0 auto;
-    }
-    .icon2{
-    color: #fff;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    position: relative;
-    top: 40px;
-    left: 90%;
-    font-size: 1.3rem;
-    background-color: orangered;
-    padding-left: 5px;
-    padding-right: 5px;
-    }
-    .images{
-        display: flex;
-        margin-top: 20px;
-        flex-wrap: wrap;
-    }
-    .box{
-        width: 25%;
-       
-    }
-    .box img{
-       width: 100%;
-    height: 180px;
-    }
-    .perks{
-        color: #fff;
-        text-align: center;
-        margin-top: 20px;
-    }
-    .section3{
-        max-width: 70%;
-        margin: 0 auto;
-       
-    }
-    .flexbox{
+@media screen(max-width:768px;) {
+    .navbar{
         display: flex;
         justify-content: space-between;
-        margin-top: 20px;
-        flex-wrap: wrap;
-    }
-    .item{
-        width: 18%;
-    }
-    .item img{
-        width: 150px;
-        border-radius: 30%;
-    }
-    .section3 h3{
-        margin-top: 10px;
-        color: #fff;
-    }
-    .section3 P{
-        color: #fff;
-        margin-top: 10px;
-    }
-    .container{
-        max-width: 70%;
-        margin: 0 auto;
-    
-    }
-    .section4{
-       width: 100%;
-        margin-top: 20px;
-    }
-    .section4 h1{
-        text-align: center;
-    }
-    .section4 p{
-        text-align: center;
-    }
-    .flex-box{
-        display: flex;
-        justify-content: space-between;
-        margin-top: 20px;
-        flex-wrap: wrap;
-    }
-    .boxes{
-        display: flex;
-        flex-direction: column;
-    width: 23%;
-    border: 2px solid white;
-    color: #fff;
-    flex-wrap: wrap;
-    }
-    .red{
-        color: rgb(116, 13, 13);
-        font-family: 'Times New Roman', Times, serif;
-        font-weight: 1000;
-    }
-    .boxes:hover{
-        background-color: orangered;
-    }
-    .d-flex{
-        display: flex;
-        justify-content: space-between;
-        margin-top: 25px;
-        color: #fff;
-        flex-wrap: wrap;
-    }
-    .s{
-        display: flex;
-        justify-content: center;
-        background-color:gray;
-        width: 100px;
         align-items: center;
         flex-wrap: wrap;
-    
-    }
-    .flexbox3{
-        display: flex;
-        justify-content: space-between;
-        margin-top: 20px;
-        color: #fff;
-        flex-wrap: wrap;
-    }
-    .box3 img{
-        width: 100px;
-        background-color: orangered;
-    }
-    footer{
-        max-width: 70%;
-        margin: 0 auto;
-    }
-    .display{
-        display: flex;
-        justify-content: space-between;
-        margin-top: 20px;
-        flex-wrap: wrap;
-       
-    }
-    
+            }
+            .right{
+                display: flex;
+                margin-right: 30px;
+                font-size: 35px;
+                flex-wrap: wrap;    
+            }
+            .bottom-address{
+                display: flex;
+                justify-content: space-between;
+              margin-top: 100px;
+              flex-wrap: wrap;
+             
+             }
+             .icons{
+                display: flex;
+                gap: 10px;
+                margin-right: 10px;
+                flex-wrap: wrap;
+            }
+            .content-2{
+                width: 50%;
+                display: flex;
+                justify-content:space-between;
+                flex-wrap: wrap;
+            }
+            .images{
+                display: flex;
+                margin-top: 20px;
+                flex-wrap: wrap;
+            }
+            .box{
+                display: flex;
+                width: 25%;
+                flex-wrap: wrap;
+               
+            }
 }
